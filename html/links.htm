@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>links</title>
+</head>
+<body>
+    
+<!--<a> Define hipervínculos-->
+    <a href="https://www.w3schools.com/">Link text</a>
+<br>
+<!--target, especifica donde abrir el doc vinculado.-->
+<!--
+    Debe contener:
+    _self, abre el doc en la misma ventana que se hizo el clic.
+    _blank, abre el doc en una nueva pestaña.
+    _parent, abre el doc en el marco principal.
+    _top, abre el doc en el cuerpo completo de la ventana.
+-->
+    <a href="https://www.w3schools.com/" target="_blank">Visit this page!</a>
+    <br>
+
+<!--
+    URL abs: una dirección web completa.
+    URL rel: un enlace a una página dentro del mismo sitio, sin "https://www"
+-->
+    <h2>Absolute URLs</h2>
+    <p> <a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">google</a></p>
+
+    <h2>Relative URLs</h2>
+    <p><a href="htmml_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+ <!--Para vincular una imagen se utiliza <img> dentro de <a>-->
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML Tutorial" style="width: 42px; height: 42px;">
+    </a>
+<br>
+<!--Usar mailto para enlazar un correo electrónico.-->
+    <a href="mailto:someone@example.com">Send email.</a>
+<br>
+<!--Botón como enlace-->
+    <button onclick="documentlocation='defautlt.asp'">HTML Tutorial</button>
+
+</body>
+</html>
